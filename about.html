@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Odhran O'Mahony</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
+	</head>
+
+	<body class="is-preload">
+		<!-- Wrapper -->
+
+		<div id="wrapper">
+			<!-- Main -->
+			<section id="main">
+				<h1>About Me</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vel dolorum voluptates hic 
+					consequuntur amet molestias impedit inventore enim praesentium alias cupiditate beatae, 
+					dignissimos rerum porro! Voluptatem ullam placeat quod.
+				</p>
+			</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="copyright">
+					<li>&copy; Odhran O'Mahony</li>
+					<li>Site under construction</li>
+				</ul>
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+		<script>
+			if ("addEventListener" in window) {
+				window.addEventListener("load", function () {
+					document.body.className = document.body.className.replace(
+						/\bis-preload\b/,
+						""
+					);
+				});
+				document.body.className += navigator.userAgent.match(/(MSIE|rv:11\.0)/)
+					? " is-ie"
+					: "";
+			}
+		</script>
+	</body>
+
+</html>
